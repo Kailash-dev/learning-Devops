@@ -30,6 +30,6 @@ jobs:
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
-        ACCESS_TOKEN: ${{ secrets.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 }}
+        ACCESS_TOKEN: ${{ secrets.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 }}
         BRANCH: gh-pages
         FOLDER: dist/my-angular-app
